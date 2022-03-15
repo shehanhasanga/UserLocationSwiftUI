@@ -13,6 +13,8 @@
 		6C0B697025FD7B5E00F3DABE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B695B25FD7B5E00F3DABE /* ContentView.swift */; };
 		6C0B697125FD7B5E00F3DABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0B695C25FD7B5E00F3DABE /* Assets.xcassets */; };
 		6C0B697225FD7B5E00F3DABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0B695C25FD7B5E00F3DABE /* Assets.xcassets */; };
+		6C0B697E25FD7B8D00F3DABE /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B697D25FD7B8D00F3DABE /* LocationViewModel.swift */; };
+		6C0B697F25FD7B8D00F3DABE /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B697D25FD7B8D00F3DABE /* LocationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		6C0B696925FD7B5E00F3DABE /* Core Location Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Location Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0B696B25FD7B5E00F3DABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C0B696C25FD7B5E00F3DABE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6C0B697D25FD7B8D00F3DABE /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				6C0B695A25FD7B5E00F3DABE /* Core_Location_TestApp.swift */,
 				6C0B695B25FD7B5E00F3DABE /* ContentView.swift */,
 				6C0B695C25FD7B5E00F3DABE /* Assets.xcassets */,
+				6C0B697D25FD7B8D00F3DABE /* LocationViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0B696F25FD7B5E00F3DABE /* ContentView.swift in Sources */,
+				6C0B697E25FD7B8D00F3DABE /* LocationViewModel.swift in Sources */,
 				6C0B696D25FD7B5E00F3DABE /* Core_Location_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0B697025FD7B5E00F3DABE /* ContentView.swift in Sources */,
+				6C0B697F25FD7B8D00F3DABE /* LocationViewModel.swift in Sources */,
 				6C0B696E25FD7B5E00F3DABE /* Core_Location_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,8 +326,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X7FABXK4C;
+				DEVELOPMENT_TEAM = CW6H68XL45;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -329,8 +336,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.corelocationtest.Core-Location-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shehan.Core-Location-Test";
 				PRODUCT_NAME = "Core Location Test";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,8 +350,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X7FABXK4C;
+				DEVELOPMENT_TEAM = CW6H68XL45;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -351,8 +360,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.corelocationtest.Core-Location-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shehan.Core-Location-Test";
 				PRODUCT_NAME = "Core Location Test";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
